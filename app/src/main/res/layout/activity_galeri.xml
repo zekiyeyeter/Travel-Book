@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.GaleriActivity">
+
+    <Button
+        android:id="@+id/savePlace"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="80dp"
+        android:text="save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+
+    <EditText
+        android:id="@+id/editTextComment"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="9dp"
+        android:hint=" Please Write Comment"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextcountry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="383dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextComment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_camera_alt_24" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/savePlace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextcity" />
+
+    <EditText
+        android:id="@+id/editTextcountry"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="9dp"
+        android:ems="10"
+        android:hint="Please enter country"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextcity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextComment" />
+
+    <EditText
+        android:id="@+id/editTextcity"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Please enter city"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/ratingBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextcountry" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

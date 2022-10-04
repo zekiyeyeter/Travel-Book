@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "514409980559",
+    "project_id": "gezikitabi-55862",
+    "storage_bucket": "gezikitabi-55862.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514409980559:android:cbd764fead997fbb6006fa",
+        "android_client_info": {
+          "package_name": "com.example.travelbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514409980559-gfrrhbeg31d9ili1kumo85s26k3mu4k0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travelbook",
+            "certificate_hash": "69cc0e0b9bc56f12006fae86d330eb3ef9aef0f3"
+          }
+        },
+        {
+          "client_id": "514409980559-3hcrccavlp1n58v3hjgk9jnvhm88ff58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQBKls_MSZwn1cL8HWeKTksbqVoBBR0b0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514409980559-3hcrccavlp1n58v3hjgk9jnvhm88ff58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

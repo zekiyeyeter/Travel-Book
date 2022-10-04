@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/recyclerview_row_placeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="place name"
+        android:paddingLeft="7dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"/>
+
+    <TextView
+        android:id="@+id/recyclerview_row_contry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="country"
+        android:paddingLeft="7dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"/>
+
+
+<TextView
+android:id="@+id/recyclerview_row_city"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="city"
+android:paddingLeft="7dp"
+android:paddingTop="7dp"
+android:paddingBottom="7dp"/>
+
+<ImageView
+android:id="@+id/recyclerview_row_imageview"
+android:layout_width="250dp"
+android:layout_height="170dp"
+    android:layout_margin="6dp"
+android:layout_gravity="center"
+ />
+
+<TextView
+android:id="@+id/recyclerview_row_comment_text"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="comment text"
+android:paddingLeft="7dp"
+android:paddingTop="7dp"
+android:paddingBottom="7dp"/>
+
+</LinearLayout>
